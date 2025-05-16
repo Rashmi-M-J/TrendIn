@@ -1,0 +1,70 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Next.js
+.next/
+out/
+.next-static/
+
+# Build output
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# AWS SDK credentials cache
+.aws/
+
+# S3 buckets or upload folders (if any)
+uploads/
+tmp/
+cache/
+
+# Coverage reports
+coverage/
+
+# GitHub-related
+.gitattributes
+*.sw?
+
+# Ignore macOS system files
+.AppleDouble
+.LSOverride
+
+# Ignore IDE folders
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# Misc
+*.tgz
+*.zip
+*.bak
+
