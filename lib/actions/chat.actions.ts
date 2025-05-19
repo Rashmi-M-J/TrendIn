@@ -42,7 +42,7 @@ export const getPusher = async()=> {
         if(insertResults)
         {
           const pusher = await getPusher();
-          pusher.trigger("sparks", "message", { text, sender, receiver, timestamp});
+          pusher.trigger("TrendIn", "message", { text, sender, receiver, timestamp});
         }
 
         revalidatePath(pathname)
@@ -59,7 +59,7 @@ export const getPusher = async()=> {
         if(updateResults)
         {
           const pusher = await getPusher();
-          pusher.trigger("sparks", "message", { text, sender, receiver, timestamp});
+          pusher.trigger("TrendIn", "message", { text, sender, receiver, timestamp});
         }
 
         revalidatePath(pathname)
@@ -201,7 +201,7 @@ export const getPusher = async()=> {
       {
         const pusher = await getPusher();
         const updateData = { sender, receiver};
-        pusher.trigger('sparks', 'updateReadStatus', updateData);
+        pusher.trigger('TrendIn', 'updateReadStatus', updateData);
       }
       
       // Emit an event to Pusher to notify the other user that the message has been read
@@ -219,7 +219,7 @@ export const updateOnlineStatus = async (userId: string, isOnline: boolean) => {
     console.log('Updating Online Status...');
     const updateData = { userId, isOnline };
     const pusher = await getPusher();
-    pusher.trigger('sparks', 'updateOnlineStatus', updateData);
+    pusher.trigger('TrendIn', 'updateOnlineStatus', updateData);
     console.log('Successfully Updated Online Status:', updateData);
     return true;
   } catch (error) {

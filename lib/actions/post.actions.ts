@@ -326,7 +326,7 @@ export const addCommentToPost = async (postId: string, commentText: string, user
      if(updateResults && insertResults)
      {
       const pusher = await getPusher();
-      pusher.trigger("sparks", "comment", {postId, userId});
+      pusher.trigger("TrendIn", "comment", {postId, userId});
      }
 
     revalidatePath(path);
@@ -380,7 +380,7 @@ export const addLikeToPost = async (postId: string, userId: string) => {
     if(results)
     {
       const pusher = await getPusher();
-      pusher.trigger("sparks", "like", {postId, userId});
+      pusher.trigger("TrendIn", "like", {postId, userId});
     }
 
     // Close the database connection

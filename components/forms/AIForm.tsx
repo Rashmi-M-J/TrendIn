@@ -34,25 +34,25 @@ interface Props{
 const getBio = (name: string) => {
     switch (name) {
         case 'movie':
-            return "Input a one sentence concept. Sparks will create and upload an fanastic title based on it! A synopsis that future studios will enjoy with a recommended cast! You can even add a movie poster!"
+            return "Input a one sentence concept. TrendIn will create and upload an fanastic title based on it! A synopsis that future studios will enjoy with a recommended cast! You can even add a movie poster!"
         case 'Regular':
             return "Create A Post"
         case 'artwork':
-            return "Input a one sentence concept. Sparks will create and upload an amazing artwork based off that concept!"
+            return "Input a one sentence concept. TrendIn will create and upload an amazing artwork based off that concept!"
         case 'book':
-            return "Input a one sentence concept. Sparks will create and upload an idea for an amazing Novel! With a title and a synopsis that will inspire you and others to write a novel worthy of the New York Times! You can even inlcude an AI generated Book Cover!"
+            return "Input a one sentence concept. TrendIn will create and upload an idea for an amazing Novel! With a title and a synopsis that will inspire you and others to write a novel worthy of the New York Times! You can even inlcude an AI generated Book Cover!"
         case 'fashion':
-          return 'Input a one sentence concept. Sparks will create and uplaod a fabulous fashion off it!'
+          return 'Input a one sentence concept. TrendIn will create and uplaod a fabulous fashion off it!'
         case 'photography':
-          return 'Input a one sentence concept. Sparks will create and upload a stunning photo out of it!'
+          return 'Input a one sentence concept. TrendIn will create and upload a stunning photo out of it!'
         case 'haikus':
-          return 'Input a one sentence concept. Sparks will create and upload a Haikus poem based on the concept! A haiku is a traditional form of Japanese poetry.'
+          return 'Input a one sentence concept. TrendIn will create and upload a Haikus poem based on the concept! A haiku is a traditional form of Japanese poetry.'
         case 'quote':
-          return 'Input a one sentence concept. Sparks will find a quote that relates to it and upload it!'
+          return 'Input a one sentence concept. TrendIn will find a quote that relates to it and upload it!'
         case 'joke':
-          return 'Input a one sentence concept. Sparks will create and upload a joke that is relating to it!'
+          return 'Input a one sentence concept. TrendIn will create and upload a joke that is relating to it!'
         case 'aphorisms':
-          return 'Input a one sentence concept. Sparks will create and upload an Aphorism based of it! An aphorism is a statement that expresses a general truth or observation about life.'
+          return 'Input a one sentence concept. TrendIn will create and upload an Aphorism based of it! An aphorism is a statement that expresses a general truth or observation about life.'
         default:
             return "No Type Selected"
     }

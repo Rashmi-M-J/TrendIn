@@ -68,7 +68,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
 
   //Client Pusher Instance Logic
   const pusher = pusherClient;
-  const [pusherChannel, setPusherChannel] = useState(pusher.subscribe('sparks'));
+  const [pusherChannel, setPusherChannel] = useState(pusher.subscribe('TrendIn'));
 
   //If User Is inActvie for more than 15 mins, close the connection to Pusher
   // Set the timeout duration in milliseconds (e.g., 15 minutes)

@@ -9,15 +9,15 @@ import { useAppContext } from '@/lib/AppContext'
 const people = [
   { name: 'Home: Click to Filter Posts' },
   { name: 'Regular Posts' },
-  { name: 'Movie Sparks' },
-  { name: 'Novel Sparks' },
-  { name: 'Artwork Sparks' },
-  { name: 'Fashion Sparks' },
-  { name: 'Photography Sparks' },
-  { name: 'Haikus Sparks' },
-  { name: 'Quote Sparks' },
-  { name: 'Joke Sparks' },
-  { name: 'Aphorism Sparks' },
+  { name: 'Movie TrendIn' },
+  { name: 'Novel TrendIn' },
+  { name: 'Artwork TrendIn' },
+  { name: 'Fashion TrendIn' },
+  { name: 'Photography TrendIn' },
+  { name: 'Haikus TrendIn' },
+  { name: 'Quote TrendIn' },
+  { name: 'Joke TrendIn' },
+  { name: 'Aphorism TrendIn' },
 ]
 
 const FilterBox = ()=> {
@@ -66,31 +66,31 @@ const FilterBox = ()=> {
         case 'Regular Posts':
           setTitle('Regular')
           break;
-        case 'Movie Sparks':
+        case 'Movie TrendIn':
           setTitle("Movie Spark")
           break;
-        case 'Novel Sparks':
+        case 'Novel TrendIn':
           setTitle("Novel Spark")
           break;
-        case 'Artwork Sparks':
+        case 'Artwork TrendIn':
           setTitle("Artwork Spark")
           break;
-        case 'Fashion Sparks':
+        case 'Fashion TrendIn':
           setTitle("Fashion Spark")
           break;
-        case 'Photography Sparks':
+        case 'Photography TrendIn':
           setTitle("Photography Spark")
           break;
-        case 'Haikus Sparks':
+        case 'Haikus TrendIn':
           setTitle("Haikus Spark")
           break;
-        case 'Quote Sparks':
+        case 'Quote TrendIn':
           setTitle("Quote Spark")
           break;
-        case 'Joke Sparks':
+        case 'Joke TrendIn':
           setTitle("Joke Spark")
           break;
-        case 'Aphorism Sparks':
+        case 'Aphorism TrendIn':
           setTitle("Aphorism Spark")
           break;
         default:

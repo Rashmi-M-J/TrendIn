@@ -1,4 +1,4 @@
-# Sparks Portfolio Project
+# TrendIn Portfolio Project
 
 ## 📋 Table of Contents
 
@@ -9,13 +9,13 @@
 5. [Contact](#contact) 📫
 6. [Database Schema](#database-schema) 📊
 7. [Screenshots](#screenshots) 📸
-8. [Sparks - AI Post Examples](#ai-post-examples) 🤖
+8. [TrendIn - AI Post Examples](#ai-post-examples) 🤖
 9. [Acknowledgments](#acknowledgments) 🙌
 10. [Setup](#setup) ⚙️
 
 ## <a name="overview">🌐 Overview </a>
 
-Sparks is a full stack social media web app that is designed to help users discover as well as create new ideas for all things creative with the help of AI. 
+TrendIn is a full stack social media web app that is designed to help users discover as well as create new ideas for all things creative with the help of AI. 
 
 ## <a name="technologies">⚙️ Technologies Used </a>
 
@@ -58,7 +58,7 @@ Sparks is a full stack social media web app that is designed to help users disco
     - Movies and Novels (includes AI generated images if the User desires, optional)
     - Artworks, Fashion , Photography , (These are all AI generated images)
     - Haikus , Quote, Joke , Aphorism
-  prompts used are saved and can be viewed when the sparks logo of the post is clicked!
+  prompts used are saved and can be viewed when the TrendIn logo of the post is clicked!
 - User-to-user Messaging system: powered by Pusher(Web Sockets) for realtime updates, ability to leave messages on read, ability to see when a user is online in chat. 
 - Image Storage System: Cloud image storage powered by the cloud , allows all profile images, as well as profile posts and even AI generated images to be saved for future usage in a secure S3 bucket privately where only the developer can access them. Cache system included with local storage so images do not have to be fetched every single time.
 - User profile management: Onboarding, Profile Edit 
@@ -100,49 +100,49 @@ Many-to-Many relationship: A user can be both the sender and receiver in multipl
 
 ## <a name="screenshots"> 📸 Screenshots </a>
 
-User interface and different functionalities of Sparks.
+User interface and different functionalities of TrendIn.
 
 ### Login
-<img src="public/assets/sparks-login.png" alt="Screenshot of login">
+<img src="public/assets/TrendIn-login.png" alt="Screenshot of login">
 
 ### Profile Set Up
-<img src="public/assets/sparks-onboard.png" alt="Screenshot of Home" >
+<img src="public/assets/TrendIn-onboard.png" alt="Screenshot of Home" >
 
 ### Home
-<img src="public/assets/sparks-home.png" alt="Screenshot of Home" >
+<img src="public/assets/TrendIn-home.png" alt="Screenshot of Home" >
 
 ### Responsive
-<img src="public/assets/sparks-moblie.png" alt="Screenshot of Home in Mobile">
-<img src="public/assets/sparks-tablet.png" alt="Screenshot of Home in Tablet">
-<img src="public/assets/sparks-prompt.png" alt="Screenshot of prompt in Phone">
+<img src="public/assets/TrendIn-moblie.png" alt="Screenshot of Home in Mobile">
+<img src="public/assets/TrendIn-tablet.png" alt="Screenshot of Home in Tablet">
+<img src="public/assets/TrendIn-prompt.png" alt="Screenshot of prompt in Phone">
 
 ### Create Studio
-<img src="public/assets/sparks-studio.png" alt="Screenshot of create studio">
+<img src="public/assets/TrendIn-studio.png" alt="Screenshot of create studio">
 
 <img src="public/assets/editSpark.png" alt="Screenshot of edit spark">
 <img src="public/assets/editPost.png" alt="Screenshot of edit post">
 <img src="public/assets/editComment.png" alt="Screenshot of edit comment">
 
 ### Search
-<img src="public/assets/sparks-search.png" alt="Screenshot of search users">
-<img src="public/assets/sparks-search-post.png" alt="Screenshot of search post">
+<img src="public/assets/TrendIn-search.png" alt="Screenshot of search users">
+<img src="public/assets/TrendIn-search-post.png" alt="Screenshot of search post">
 
 ### Share
-<img src="public/assets/sparks-share.png" alt="Screenshot of Share Post">
+<img src="public/assets/TrendIn-share.png" alt="Screenshot of Share Post">
 
 ### Chats
-<img src="public/assets/sparks-chats.png" alt="Screenshot of User Chats">
-<img src="public/assets/sparks-message.png" alt="Screenshot of Messages">
+<img src="public/assets/TrendIn-chats.png" alt="Screenshot of User Chats">
+<img src="public/assets/TrendIn-message.png" alt="Screenshot of Messages">
 
 ### Activity
-<img src="public/assets/sparks-noti.png" alt="Screenshot of User Activity">
+<img src="public/assets/TrendIn-noti.png" alt="Screenshot of User Activity">
 
 ### Profile
-<img src="public/assets/sparks-profile.png" alt="Screenshot of User Profile">
+<img src="public/assets/TrendIn-profile.png" alt="Screenshot of User Profile">
 
 
-# <a name="ai-post-examples">🤖 Sparks Examples [AI Posts] </a>
-Below are some examples of generated Sparks
+# <a name="ai-post-examples">🤖 TrendIn Examples [AI Posts] </a>
+Below are some examples of generated TrendIn
 
 <img src="public/assets/examplespark.png" alt="Screenshot of AI Spark">
 
@@ -204,10 +204,10 @@ Shout out to adrianhajdin on Github for tutorials on Next.js
 
 ```bash
 # Clone the repository
-git clone https://github.com/tomyRomero/sparks
+git clone https://github.com/tomyRomero/TrendIn
 
 # Navigate to the project directory
-cd sparks
+cd TrendIn
 
 # Install dependencies
 npm install

@@ -250,7 +250,7 @@ function Post({
             </DialogTrigger>
             <DialogContent className="rounded-xl xs:max-w-[400px] sm:max-w-[425px]">
                   <DialogHeader>
-                    <DialogTitle className="text-heading3-bold">Welcome to Sparks!</DialogTitle>
+                    <DialogTitle className="text-heading3-bold">Welcome to TrendIn!</DialogTitle>
                     <DialogDescription>Please login or create an account to continue.</DialogDescription>
                   </DialogHeader>
                   <div className="grid gap-4 py-4">
@@ -352,7 +352,7 @@ function Post({
               </div>
             )}
 
-            {/* Content for Sparks */}
+            {/* Content for TrendIn */}
             {title !== 'Comment' && title !== "Regular" && (
               <div>
               <h1 className="mt-2 text-heading3-bold text-light-1 ml-3"><span className="text-primary-500"></span> {extractTitle(content)}</h1>
@@ -423,7 +423,7 @@ function Post({
                 (<Loginmodal image={'/assets/share.svg'}/>)
                 }
                
-                  {/* Sparks Title Modal With Prompt */}
+                  {/* TrendIn Title Modal With Prompt */}
                   <div className="max-sm:hidden">
                 <Prompt title ={title} prompt={prompt}/>
                 </div>

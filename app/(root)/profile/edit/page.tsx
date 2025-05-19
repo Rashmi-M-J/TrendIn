@@ -22,7 +22,7 @@ async function Page() {
 
   return (
     <main className='mx-auto flex max-w-3xl flex-col justify-start px-10 py-10'>
-      <h1 className='head-text mx-auto text-primary-500'>Edit Sparks Profile</h1>
+      <h1 className='head-text mx-auto text-primary-500'>Edit TrendIn Profile</h1>
       <p className='mx-auto mt-3 text-base-regular text-primary-500'>
         Make adjustments to your profile.
       </p>

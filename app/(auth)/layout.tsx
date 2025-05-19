@@ -9,8 +9,8 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sparks Auth",
-  description: "Auth for Sparks App",
+  title: "TrendIn Auth",
+  description: "Auth for TrendIn App",
 };
 
 export default function RootLayout({

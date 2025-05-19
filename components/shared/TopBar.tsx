@@ -50,7 +50,7 @@ function Topbar({ userId } : any)
              width={38}
              height={38}
              />
-            <p className="font-agbalumo text-heading2-bold"><span className="teal_gradient">SPARKS</span></p>
+            <p className="font-agbalumo text-heading2-bold"><span className="teal_gradient">TrendIn</span></p>
             </Link>
 
             <div className={`md:hidden lg:hidden xl:hidden flex ml-auto hover:bg-primary-500 rounded-lg p-1 mr-2 ${isActive() ? 'bg-primary-500 ' : ''}`}>
@@ -104,7 +104,7 @@ function Topbar({ userId } : any)
                  width={38}
                  height={38}
                  />
-                <p className="font-agbalumo text-heading2-bold"><span className="teal_gradient">SPARKS</span></p>
+                <p className="font-agbalumo text-heading2-bold"><span className="teal_gradient">TrendIn</span></p>
                 </Link>
                 <Dialog >
                 <DialogTrigger asChild>
@@ -122,7 +122,7 @@ function Topbar({ userId } : any)
                 </DialogTrigger>
                 <DialogContent className="rounded-xl xs:max-w-[400px] sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle className="text-heading3-bold">Welcome to Sparks!</DialogTitle>
+          <DialogTitle className="text-heading3-bold">Welcome to TrendIn!</DialogTitle>
           <DialogDescription>Please login or create an account to continue.</DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">

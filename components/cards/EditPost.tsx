@@ -91,14 +91,14 @@ function EditPost({
              <EditComment content={content} userId={userId} isComment={true} parentId={parentId ? parentId : ""} postId={id}/>
             )}
 
-            {/* Content for Sparks */}
+            {/* Content for TrendIn */}
             {title !== 'Comment' && title !== "Regular" && (
               <EditSpark title={title} postId={id} contentImage={contentImage? contentImage : ""} content={content} userId={userId} isComment={false} parentId={parentId ? parentId : ""}/>
             )}
 
             <div className={`mt-5 flex flex-col gap-3`}>
               <div className='flex gap-3.5'>
-                  {/* Sparks Title Modal With Prompt */}
+                  {/* TrendIn Title Modal With Prompt */}
                   <div className="max-sm:hidden">
                 <Prompt title ={title} prompt={prompt}/>
                 </div>

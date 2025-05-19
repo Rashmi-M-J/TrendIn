@@ -21,8 +21,8 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sparks",
-  description: "With Sparks, share AI-generated ideas, engage in lively chats, and enjoy a seamless experience with likes, comments, and shares all in one place.",
+  title: "TrendIn",
+  description: "With TrendIn, share AI-generated ideas, engage in lively chats, and enjoy a seamless experience with likes, comments, and shares all in one place.",
 };
 
 

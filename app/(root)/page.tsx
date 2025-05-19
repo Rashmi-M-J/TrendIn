@@ -13,7 +13,7 @@ async function Home()
     {
       return (
         <>
-          <h1 className='head-text text-left text-black mb-6'>Recent Sparks...</h1>
+          <h1 className='head-text text-left text-black mb-6'>Recent TrendIn...</h1>
           <FilterBox />
           <br/>
           <SearchButton user={false}/>
@@ -27,7 +27,7 @@ async function Home()
 
  return (
     <>
-      <h1 className='head-text text-left text-black mb-6'>Recent Sparks...</h1>
+      <h1 className='head-text text-left text-black mb-6'>Recent TrendIn...</h1>
       <FilterBox />
       <br/>
       <SearchButton user={true}/>

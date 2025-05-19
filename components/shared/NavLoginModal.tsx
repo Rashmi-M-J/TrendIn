@@ -28,7 +28,7 @@ const NavLoginmodal = ({image, label}: {image: string , label:string})=> {
       </DialogTrigger>
       <DialogContent className="rounded-xl sm:max-w-[425px]">
         <DialogHeader>
-          <DialogTitle className="text-heading3-bold">Welcome to Sparks!</DialogTitle>
+          <DialogTitle className="text-heading3-bold">Welcome to TrendIn!</DialogTitle>
           <DialogDescription>Please login or create an account to continue.</DialogDescription>
         </DialogHeader>
         <div className="grid gap-4 py-4">
