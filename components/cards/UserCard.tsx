@@ -68,11 +68,11 @@ function UserCard({ id, name, username, imgUrl, type, postId, sender}: Props) {
 
       const post = await fetchPostById(postId)
       
-      let shareText = `Check Out This Post! ${url}post/${postId}`
+      let shareText = `Check Out This Post! ${url}/post/${postId}`
 
       if(post.title !== "Regular" && post.title !== "Comment")
       {
-        shareText = `Check Out This Post! ${url}post/${postId} -> ${extractTitle(post.content)} , ${post.title}`;
+        shareText = `Check Out This Post! ${url}/post/${postId} -> ${extractTitle(post.content)} , ${post.title}`;
       }
 
       const newMessages = [
